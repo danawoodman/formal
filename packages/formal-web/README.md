@@ -56,19 +56,19 @@ export default function App() {
       <div>
         <label htmlFor="firstName">First Name</label>
         <input {...formal.getFieldProps("firstName")} type="text" />
-        {form.errors.firstName && <div>{form.errors.firstName}</div>}
+        {formal.errors.firstName && <div>{formal.errors.firstName}</div>}
       </div>
 
       <div>
         <label htmlFor="lastName">Last Name</label>
         <input {...formal.getFieldProps("lastName")} type="text" />
-        {form.errors.lastName && <div>{form.errors.lastName}</div>}
+        {formal.errors.lastName && <div>{formal.errors.lastName}</div>}
       </div>
 
       <div>
         <label htmlFor="email">Email</label>
         <input {...formal.getFieldProps("email")} type="text" />
-        {form.errors.email && <div>{form.errors.email}</div>}
+        {formal.errors.email && <div>{formal.errors.email}</div>}
       </div>
 
       <button {...formal.getSubmitButtonProps()} type="submit">
