@@ -50,7 +50,7 @@ Also, some of those packages do not provide out of the box support for both web 
 
 <!-- START the-solution -->
 
-**Formal** is a _cross-platform_ solution that exposes just the right primitives you need to manage your forms state and validations with ease.
+**Formal** is a _cross-platform_ solution that exposes just the right primitives you need to manage your form's state and validations with ease.
 
 <!-- END the-solution -->
 
