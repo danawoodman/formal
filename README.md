@@ -40,7 +40,7 @@ Elegant form management primitives<br />for the react hooks era.
 
 <!-- START the-problem -->
 
-Working with forms on react can be a really repetitive task. Most of the existing abstractions provides a render props API and it is just not cool on the _react hooks era_.
+Working with forms in React can be a really repetitive task. Most of the existing abstractions provide a render prop API but that is just no longer cool in the _React Hooks era_.
 
 Also, some of those packages does not provide out of the box support for both web and mobile platforms.
 
